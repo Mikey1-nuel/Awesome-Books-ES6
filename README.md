@@ -69,7 +69,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - With a git cmd, git bash or visual studio terminal, clone repo with **``git clone https://github.com/Mikey1-nuel/Awesome-Books-ES6.git``** to download the repository locally on your machine.
-- Then you navigate to the folder in your code editor with the command **``cd Awesome-Book-ES6``**.
+- Then you navigate to the folder in your code editor with the command **``cd Awesome-Books-ES6``**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
