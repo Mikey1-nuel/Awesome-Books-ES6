@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Awesome Books</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto&display=swap"
+	rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<h1 class="header">Awesome books</h1>
+			<ul class="navigation">
+				<li><a href="#" class="list-link textdec blue">List</a></li>
+				<div class="separator"></div>
+				<li><a href="#" class="add-link textdec">Add new</a></li>
+				<div class="separator"></div>
+				<li><a href="#" class="contact-link textdec">Contact</a></li>
+			</ul>
+		</div>
+		<div class="date-time"><span id="date-time"></span></div>
+	</header>
+
+	<section class="container1">
+		<h2>All awesome books</h2>
+		<div class="book-list" id="book-list">
+		</div>
+		<hr class="hr">
+	</section>
+
+	<section class="form">
+		<h2>Add a new book</h2>
+	<form action="" method="post" id='add-form'>
+		<input type="text" name="book-title" placeholder="Title" class="titleinput" id="book-title">
+		<br>
+		<input type="text" name="book-author" placeholder="Author" class="authorinput" id="book-author">
+		<br>
+		<div class="btncont">
+		<button class="addbtn" id="add-form" type="submit">Add</button>
+	</div>
+	</form>
+</section>
+
+<section class="contact">
+	<div class="contact-wrapper">
+		<h2>Contact information</h2>
+		<p class="question">Do you have questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+		<ul>
+		<li>Our e-mail: mail@mail.com</li>
+		<li>Our phone number: 0043586634422444</li>
+		<li>Our address: Streetname 22, 84503 City, Country.</li>
+		</ul>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="copyright">
+	<h3>Copyright ...</h3>
+</div>
+</footer>
+
+	<script type="module" src="index.js"></script>
+</body>
+</html>
