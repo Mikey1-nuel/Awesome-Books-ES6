@@ -48,7 +48,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://mikey1-nuel.github.io/Awesome-Book/)
+- [Live Demo Link](https://mikey1-nuel.github.io/Awesome-Books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
